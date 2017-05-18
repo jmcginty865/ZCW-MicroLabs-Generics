@@ -15,6 +15,7 @@ public class Table<K, V> {
     private ArrayList <Entry<K,V>> entries;
 
     public Table() {
+
         entries = new ArrayList<Entry<K,V>>();
     }
 
