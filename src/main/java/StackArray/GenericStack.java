@@ -13,6 +13,7 @@ public class GenericStack<E> {
 
     @SuppressWarnings("Unchecked")
     public GenericStack() {
+
         elements = (E[]) new Object[0];
     }
 
