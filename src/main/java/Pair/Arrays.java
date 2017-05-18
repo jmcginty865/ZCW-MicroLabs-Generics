@@ -9,8 +9,8 @@ import java.util.Collections;
  * You must also make a min method that returns the smallest item in the array list
  * A max method that returns the largest item in the arraylist
  * And a minmax method that returns a pair containing the largest and smallest items from the array list
- */
-public class Arrays {
-    public static <___> Pair<E> firstLast(ArrayList<___> a) {
-    }
-}
+// */
+//public class Arrays {
+//    public static <___> Pair<E> firstLast(ArrayList<___> a) {
+//    }
+//}

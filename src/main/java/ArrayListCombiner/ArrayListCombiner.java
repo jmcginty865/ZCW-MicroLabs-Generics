@@ -10,13 +10,12 @@ import java.util.ArrayList;
  */
 public class ArrayListCombiner <E> {
 
-    ArrayList<? extends E> first = new ArrayList<>();
-    ArrayList< ? super E> second = new ArrayList<>();
-
-    public void extendCombiner(ArrayList<E> first, ArrayList<E> second){
-
+    public static <E> void extendCombiner(ArrayList<E> first, ArrayList<? extends E> second) {
+            first.addAll(second);
     }
 
-    public void superCombiner(){}
+    public static <E> void superCombiner(ArrayList<? super E> first, ArrayList<E> second){
+        first.addAll(second);
+    }
 
 }
